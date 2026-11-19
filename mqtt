@@ -1,0 +1,957 @@
+[
+  {
+    "id": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+    "clientId": "mqttx_b8516d64",
+    "name": "Dion",
+    "clean": true,
+    "protocol": "mqtts",
+    "host": "broker.emqx.io",
+    "port": 8883,
+    "keepalive": 60,
+    "connectTimeout": 10,
+    "reconnect": true,
+    "reconnectPeriod": 4000,
+    "username": "",
+    "password": "",
+    "path": "/mqtt",
+    "certType": "server",
+    "ssl": true,
+    "mqttVersion": "5.0",
+    "unreadMessageCount": 0,
+    "clientIdWithTime": false,
+    "parentId": null,
+    "orderId": null,
+    "rejectUnauthorized": true,
+    "ALPNProtocols": "",
+    "ca": "",
+    "cert": "",
+    "key": "",
+    "isCollection": false,
+    "createAt": "2026-11-19T06:17:54.290Z",
+    "updateAt": "2026-11-19T08:07:35.329Z",
+    "subscriptions": [
+      {
+        "id": "scription_32d6df0d-eea8-4814-b413-fcff58649591",
+        "topic": "Kelas-08A/#",
+        "qos": 0,
+        "disabled": false,
+        "alias": "",
+        "retain": false,
+        "nl": false,
+        "rap": false,
+        "rh": 0,
+        "subscriptionIdentifier": null,
+        "color": "#A2452A",
+        "createAt": "2026-11-19T06:16:49.634Z",
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049"
+      }
+    ],
+    "will": {
+      "id": "ee6b2ab2-a974-46f1-9a12-de26b7d25f2a",
+      "lastWillTopic": "",
+      "lastWillPayload": "",
+      "lastWillPayloadType": "Plaintext",
+      "lastWillQos": 0,
+      "lastWillRetain": false,
+      "properties": {
+        "willDelayInterval": null,
+        "payloadFormatIndicator": null,
+        "messageExpiryInterval": null,
+        "contentType": "",
+        "responseTopic": "",
+        "correlationData": null
+      }
+    },
+    "properties": {
+      "sessionExpiryInterval": 0,
+      "receiveMaximum": null,
+      "maximumPacketSize": null,
+      "topicAliasMaximum": null,
+      "requestResponseInformation": null,
+      "requestProblemInformation": null,
+      "authenticationMethod": null
+    },
+    "messages": [
+      {
+        "id": "message_39257ad0-0c73-4c04-8461-00b07e1bc76f",
+        "createAt": "2026-11-19 13:22:37:488",
+        "out": true,
+        "payload": "hallo mqtt\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "Kelas-08A/46/",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_fec316f5-b2a4-45ed-956e-399ec45e203a",
+        "createAt": "2026-11-19 13:22:37:793",
+        "out": false,
+        "payload": "hallo mqtt\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "Kelas-08A/46/",
+        "meta": "{\"msgType\":\"Plaintext\"}",
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_e2878458-cc3c-4191-9558-51e92fa76d71",
+        "createAt": "2026-11-19 13:24:36:385",
+        "out": true,
+        "payload": "asd",
+        "qos": 0,
+        "retain": false,
+        "topic": "gedungs-08A/46/",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_1026acbc-098d-4f68-bd2b-1dea806c3a5e",
+        "createAt": "2026-11-19 13:24:53:055",
+        "out": true,
+        "payload": "ok",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/99/",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_72e61069-bbf5-4e48-a5c2-491c3e516dd7",
+        "createAt": "2026-11-19 13:24:58:159",
+        "out": true,
+        "payload": "ok",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/99/",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_2f8672df-46de-43db-9800-1c5ec6f550bf",
+        "createAt": "2026-11-19 13:25:06:089",
+        "out": true,
+        "payload": "ok",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/46/",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_7034adb6-c404-4f58-9d04-9ca876202fd5",
+        "createAt": "2026-11-19 13:26:17:060",
+        "out": true,
+        "payload": "Ada jual cireng dan udang keju\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/99/",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_d1161718-5ffc-40c3-b293-29831688da09",
+        "createAt": "2026-11-19 13:27:33:047",
+        "out": true,
+        "payload": "hi\n\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/46/",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_52c99dad-c5b2-468a-bafd-467cd84d056b",
+        "createAt": "2026-11-19 13:27:40:202",
+        "out": true,
+        "payload": "qwe\n\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/46/",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_efda62f3-6704-41af-bc03-8984f9083497",
+        "createAt": "2026-11-19 13:28:10:970",
+        "out": true,
+        "payload": "hello mqtts",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/46/",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_151cc0df-b034-4041-9fe6-9cc31365aee4",
+        "createAt": "2026-11-19 13:28:14:726",
+        "out": true,
+        "payload": "hello mqtts",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/46/",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_af93ef3a-3665-4d33-a141-9b93a0c4141a",
+        "createAt": "2026-11-19 14:09:00:408",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/46/tim9/set26",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_1eb36880-8566-40cd-ac77-63f7cda768ae",
+        "createAt": "2026-11-19 14:09:10:436",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/set26",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_84e75f32-1c0f-4acc-a760-aaf6c96da50c",
+        "createAt": "2026-11-19 14:09:12:385",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/set26",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_1a295bb8-a0b8-4dfc-931f-74f3d7e64037",
+        "createAt": "2026-11-19 14:09:13:117",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/set26",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_020abd7b-33e8-4c77-b0b5-bd7836aa174e",
+        "createAt": "2026-11-19 14:09:13:431",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/set26",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_3e5844d1-98d9-44ca-94d3-d1ec8fa62654",
+        "createAt": "2026-11-19 14:09:29:039",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/set26",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_b40a9d81-df4d-475f-88f2-31ca9bc15882",
+        "createAt": "2026-11-19 14:09:43:963",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/set26",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_a720df3a-58fd-40f3-9a9e-639f85ffbc2c",
+        "createAt": "2026-11-19 14:10:36:433",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/set26",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_9862f146-afde-44ab-b5e3-e26ae4bb4ffb",
+        "createAt": "2026-11-19 14:11:05:345",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led26/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_6cc82525-968c-4cc1-a830-ce5628de416e",
+        "createAt": "2026-11-19 14:11:07:522",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led26/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_12880f1f-8d67-4bc1-b4a4-6468cd4cfef3",
+        "createAt": "2026-11-19 14:11:44:216",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/26/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_22af254b-f10d-46e3-b222-f2282f979fb7",
+        "createAt": "2026-11-19 14:11:45:855",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/26/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_202c77a6-3591-40af-b8d7-74dad315be14",
+        "createAt": "2026-11-19 14:11:51:397",
+        "out": true,
+        "payload": "1\n",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_226425a0-b538-4a49-9d88-48aeb9f1d29c",
+        "createAt": "2026-11-19 14:12:08:761",
+        "out": true,
+        "payload": "0",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_38325b31-9b6b-4f18-a826-1b8adbb9dd48",
+        "createAt": "2026-11-19 14:12:17:208",
+        "out": true,
+        "payload": "0",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/26/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_614305a4-25eb-4939-a20d-c33a2f98c5a0",
+        "createAt": "2026-11-19 14:13:45:669",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/26/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_e81e52f0-c3ac-4b9f-a7d2-fcd5ee6cc333",
+        "createAt": "2026-11-19 14:13:51:869",
+        "out": true,
+        "payload": "0",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/26/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_0487c4bf-4754-4562-81d5-6637e9c56d19",
+        "createAt": "2026-11-19 14:14:02:219",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/26/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_16df467e-4656-488e-8cc3-e8a0805eacc2",
+        "createAt": "2026-11-19 14:14:04:876",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/26/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_0e69f376-aa77-47f6-a491-aefbc3088d7b",
+        "createAt": "2026-11-19 14:14:12:271",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/26/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_b6f8afe5-87b2-492d-9e70-8943cd521c1c",
+        "createAt": "2026-11-19 14:14:20:062",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_1e4ef6eb-6c43-43f5-8e27-5c1e4dd35ab6",
+        "createAt": "2026-11-19 14:37:47:711",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_8640674d-b285-41f6-acd3-6f76596a40f2",
+        "createAt": "2026-11-19 14:37:51:916",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_52c52b22-7924-4452-b418-d608f70ba7d6",
+        "createAt": "2026-11-19 14:38:06:544",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/26/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_2b45e87d-245a-4912-a59a-f67f7587a6b8",
+        "createAt": "2026-11-19 14:38:12:667",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_0313b8a6-d3ca-41a3-829c-f29a2481f550",
+        "createAt": "2026-11-19 14:38:37:866",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_db93a0fe-bb7e-48ea-8723-3a5c14d059db",
+        "createAt": "2026-11-19 14:44:59:002",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_a0ae9c34-f046-40cc-9df3-38f11c541d95",
+        "createAt": "2026-11-19 14:45:43:188",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_7cb66fae-d0da-4346-8a1b-9e0edd8ac6f4",
+        "createAt": "2026-11-19 14:45:48:483",
+        "out": true,
+        "payload": "0",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_d7a0e304-6834-4ab9-9d5f-a47fb08757c5",
+        "createAt": "2026-11-19 14:50:57:937",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_589724b5-3a35-41a1-a41f-62f9c86b201c",
+        "createAt": "2026-11-19 14:51:01:933",
+        "out": true,
+        "payload": "0",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_792f8520-f2a9-49f8-85cf-a239491857c8",
+        "createAt": "2026-11-19 15:07:39:628",
+        "out": true,
+        "payload": "1",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      },
+      {
+        "id": "message_8ad98759-05fe-4434-9189-cb1b0c17a101",
+        "createAt": "2026-11-19 15:07:43:205",
+        "out": true,
+        "payload": "0",
+        "qos": 0,
+        "retain": false,
+        "topic": "kelas-08A/tim9/led/27/set",
+        "meta": null,
+        "connectionId": "b9ade8c7-ca53-46a3-a718-1228a4253049",
+        "properties": {
+          "payloadFormatIndicator": null,
+          "messageExpiryInterval": null,
+          "topicAlias": null,
+          "responseTopic": null,
+          "correlationData": null,
+          "subscriptionIdentifier": null,
+          "contentType": null
+        }
+      }
+    ]
+  }
+]
